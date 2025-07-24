@@ -1,10 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+import Footer from './component/footer';
 
 function App() {
   return (
-   <div className='text-3xl font-bold underline'>
-    Hello
+   <div >
+    
+      <Footer />
    </div>
   );
 }
