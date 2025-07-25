@@ -4,30 +4,21 @@ const Footer = () => {
   return (
     <div>
     <div className="bg-[#1c1c1e] text-white px-6 py-16 relative overflow-hidden ">
-        
-          <div className="absolute top-6 right-16 text-white text-xl ">
+         <div className="absolute top-6 right-16 text-white text-xl ">
            <Plus size={20} />
             </div>
-
-    
           <div className="flex flex-col md:flex-row justify-between items-center">
-            {/* Heading */}
             <div className="text-center md:text-left max-w-xl">
               <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
                 Contact us for the service<br />you want to use
               </h2>
             </div>
-    
-            {/* Button */}
             <div className="mt-6 md:mt-0">
               <button className="bg-[#5454D4] hover:bg-[#4444c4] text-white text-sm px-6 py-2 rounded-md transition translate-x-[-40px] ">
                 Contact us
               </button>
             </div>
           </div>
-    
-          {/* Decorative Circles */}
-      
     <div className="absolute bottom-[17%] left-6">
        <div className="w-6 h-6 border-[2px] border- border-white rounded-full absolute"></div>
        <div className="w-6 h-6 border border-white rounded-full absolute translate-x-2 translate-y-2"></div>
