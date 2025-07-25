@@ -6,7 +6,7 @@ import Part from './Component/Part';
 
 function App() {
   return (
-    <div className='bg-[#19191B]'>
+    <div className='bg-primary text-textcolor'>
       <Header/>
       <Part/>
     </div>
