@@ -1,15 +1,14 @@
 import React from 'react';
 import { Plus } from 'lucide-react'; 
-
-
 const Footer = () => {
   return (
     <div>
-    <div className="bg-[#1e1e20] text-white px-6 py-16 relative overflow-hidden ">
+    <div className="bg-[#1c1c1e] text-white px-6 py-16 relative overflow-hidden ">
         
-          <div className="absolute top-6 right-6 text-white text-xl">
-            <Plus size={20} />
-          </div>
+          <div className="absolute top-6 right-16 text-white text-xl ">
+           <Plus size={20} />
+            </div>
+
     
           <div className="flex flex-col md:flex-row justify-between items-center">
             {/* Heading */}
@@ -28,10 +27,10 @@ const Footer = () => {
           </div>
     
           {/* Decorative Circles */}
-          {/* Decorative Circles */}
+      
     <div className="absolute bottom-[17%] left-6">
-      <div className="w-6 h-6 border-[2px] border- border-white rounded-full absolute"></div>
-      <div className="w-6 h-6 border border-white rounded-full absolute translate-x-2 translate-y-2"></div>
+       <div className="w-6 h-6 border-[2px] border- border-white rounded-full absolute"></div>
+       <div className="w-6 h-6 border border-white rounded-full absolute translate-x-2 translate-y-2"></div>
     </div>
     
         </div>
@@ -56,5 +55,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;
