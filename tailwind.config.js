@@ -6,10 +6,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+      graphik: ['Graphik'],
+      nunito: ['Nunito Sans'],
+      },
       colors:{
         'primary': '#19191B',
-        'pa':'#FFFFFF',
-        'btnclr':'#5454D4'
+        'textcolor':'#FFFFFF',
+        'buttoncolor':'#5454D4'
       }
     },
   },
