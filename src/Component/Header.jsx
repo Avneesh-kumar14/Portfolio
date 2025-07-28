@@ -1,12 +1,15 @@
 import React from 'react';
 import Image from './Common/Image';
+import { Link } from 'react-router-dom';
+
 
 
 const Header = () => {
+  
   return (
-    <div>
+    <div className="bg-primary text-textcolor">
      
-      <div className="flex flex-wrap md:flex-nowrap justify-between items-center bg-primary text-textcolor px-4 md:px-8 py-6 md:py-8 mx-10">
+      <div className="flex flex-wrap md:flex-nowrap justify-between items-center  bg-primary text-textcolor px-4 md:px-8 py-6 md:py-8 mx-10">
        
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           
@@ -19,11 +22,9 @@ const Header = () => {
           <li>Home</li>
           <li>Service</li>
           <li>Our Project</li>
-          
           <li>About</li>
         </ul>
 
-        
         <button className="border-2 rounded-lg px-4 py-1 text-sm md:text-base  mt-4 md:mt-0">
           Contact Us
         </button>
@@ -56,7 +57,7 @@ const Header = () => {
        
         <div className="relative w-full lg:w-1/2 mt-10 lg:mt-0 flex justify-center items-center h-[75vh]">
           <div className="relative flex justify-center items-center"> 
-            <Image src="/assests/WhatsApp2.png" alt="hero"  />
+            <Image src="/assests/WhatsApp2.png" alt="hero" className="h-full w-full" />
           </div>
         </div>
 
@@ -67,3 +68,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

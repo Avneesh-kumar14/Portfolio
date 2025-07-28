@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Videos from './Common/Videos'
+import Image from './Common/Image';
+
 const body = () => {
+  
   return (
-    <div>
-      <div className='bg-primary text-textcolor flex m-10' >
+    <div className='bg-primary w- h-full text-textcolor'>
+      <div className='bg-primary text-textcolor flex m-10 ' >
         <div className='font-(family-name:graphik) font-bold text-6xl m-10 '>
             <h3>Why Ever Is The</h3>
             <h3>Best Choice?</h3>
@@ -14,7 +18,7 @@ const body = () => {
           </div>
 
       </div>
-      <div className='flex justify-center'><video  src="/assests/video.mp4" controls className='m-10 w-160 h-90 '></video></div>
+      
     </div>
   )
 }
