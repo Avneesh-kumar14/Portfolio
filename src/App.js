@@ -1,15 +1,32 @@
-import { Import } from 'lucide-react';
+
 import './App.css';
-import Footer from './component/footer';
-import Ourproject from './component/ourproject';
-import Services from './component/services';
+import Header from './Component/Header';
+import Part from './Component/Part';
+import Footer from './Component/Footer';
+import Ourproject from './Component/Ourproject';
+import Services from './Component/Services';
+import Video from './Component/Video';
+
+
+
+
+
 function App() {
+
   return (
-   <div >
-    <Services/>
-    <Ourproject />
-    <Footer />
-   </div>
+    <>
+      <div className='bg-primary text-textcolor'>
+        <Header />
+        <Part />
+        <Video />
+        <Services />
+        <Ourproject />
+        <Footer />
+      </div>
+    </>
   );
 }
 export default App;
+
+
+
