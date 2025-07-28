@@ -13,16 +13,16 @@ const Header = () => {
        
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           
-          <Image src="/assests/logo.png" alt="Logo" className="h-7" />
+          <Image src="/assests/logo.png" alt="Logo" className="h-7 " />
           <span className="text-xl font-bold tracking-wide">Enver</span>
         </div>
 
         
         <ul className="flex flex-wrap gap-5 justify-center md:ml-10 text-sm md:text-base opacity-70">
-          <li>Home</li>
-          <li>Service</li>
-          <li>Our Project</li>
-          <li>About</li>
+          <a href='#'><li>Home</li></a>
+          <a href='#Service'><li>Service</li></a>
+          <a href='#Ourproject'><li>Our Project</li></a>
+          <a href='#Footer'><li>About</li></a>
         </ul>
 
         <button className="border-2 rounded-lg px-4 py-1 text-sm md:text-base  mt-4 md:mt-0">
@@ -31,9 +31,9 @@ const Header = () => {
       </div>
 
       
-      <div className="flex flex-col lg:flex-row w-full h-full items-center bg-primary px-4 md:px-8 mx-10">
+      <div className="flex flex-col lg:flex-row w-full h-full items-center bg-primary px-4 md:px-8 mx-0">
         
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 m-10">
           <div className="text-textcolor text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mt-6 md:mt-10">
             <h2>Build Your</h2>
             <h2>Awesome</h2>

@@ -35,14 +35,14 @@ const Services = () => {
     },
   ];
   return (
-    <section className="relative bg-[#19191B] text-white py-20 px-4 md:px-20 overflow-hidden">
+    <section className="relative bg-primary text-textcolor py-20 px-4 md:px-20 overflow-hidden">
  <div className="absolute top-4 right-[15%] z-10 w-5 h-5">
-  <div className="absolute top-1/2 left-0 w-full h-[2px] bg-white transform -translate-y-1/2" />
-  <div className="absolute left-1/2 top-0 h-full w-[2px] bg-white transform -translate-x-1/2" />
+  <div className="absolute top-1/2 left-0 w-full h-[2px] bg-textcolor transform -translate-y-1/2" />
+  <div className="absolute left-1/2 top-0 h-full w-[2px] bg-textcolor transform -translate-x-1/2" />
 </div>
 <div className="absolute bottom-4 left-[10%] z-10 w-5 h-5">
-  <div className="absolute top-1/2 left-0 w-full h-[2px] bg-white transform -translate-y-1/2" />
-  <div className="absolute left-1/2 top-0 h-full w-[2px] bg-white transform -translate-x-1/2" />
+  <div className="absolute top-1/2 left-0 w-full h-[2px] bg-textcolor transform -translate-y-1/2" />
+  <div className="absolute left-1/2 top-0 h-full w-[2px] bg-textcolor transform -translate-x-1/2" />
 </div>
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
