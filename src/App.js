@@ -1,10 +1,10 @@
-import { Import } from 'lucide-react';
+
 import './App.css';
 import Header from './Component/Header';
 import Part from './Component/Part';
-import Footer from './component/footer';
-import Ourproject from './component/ourproject';
-import Services from './component/services';
+import Footer from './Component/Footer';
+import Ourproject from './Component/Ourproject';
+import Services from './Component/Services';
 
 
 function App() {
