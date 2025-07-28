@@ -7,13 +7,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      graphik: ['Graphik'],
-      nunito: ['Nunito Sans'],
+        graphik: ['Graphik'],
+        nunito: ['Nunito Sans'],
       },
-      colors:{
+      colors: {
         'primary': '#19191B',
-        'textcolor':'#FFFFFF',
-        'buttoncolor':'#5454D4'
+        'textcolor': '#FFFFFF',
+        'buttoncolor': '#5454D4',
+        "example": "#19191B",
       }
     },
   },
