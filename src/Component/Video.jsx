@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from './Common/Image';
 import Videos from './Common/Videos';
+import { Play } from 'lucide-react';
 
 const ImageToVideo = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -14,16 +15,16 @@ const ImageToVideo = () => {
 
           <button
             onClick={() => setShowVideo(true)}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-buttoncolor  px-6 py-2 rounded-full shadow-md "
+            className="absolute w-16 h-16 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-buttoncolor  px-6 py-2 rounded-full  shadow-md "
           >
-            Play Video
+            <Play className="w-6 h-6" />
           </button>
         </div>
       ) : (
 
 
-          <Videos src="/assests/video.mp4" alt="Video"   controls
-          autoPlay className="w-full rounded-lg shadow-lg"/>
+          <Videos src="/assests/video.mp4" alt="Video"   controls muted loop playsInline preload="auto"
+            autoPlay={true} className="w-full rounded-lg shadow-lg"/>
 
       )}
     </div>
